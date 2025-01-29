@@ -1,8 +1,6 @@
 import React from 'react'
 import AboutImg from "../../assets/about.png"
 import { GoArrowRight } from "react-icons/go"
-
-
 const About = () => {
     return (
         <div id='#About' className='text-black/75 md:flex overflow-hidden items-center md:flex-wrap md:justify-center
@@ -15,31 +13,28 @@ const About = () => {
                         <div className='flex gap-3 py-4'>
                             <GoArrowRight size={30} className="mt-1"/>
                             <span className='w-96'>
-                                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Frontend developer</h1>
-                                <p className='text-sm md:text-md leading-tight'>Lorem ipsum dolor sit amet consectetur 
-                                    adipisicing elit. Dolorem, molestias omnis. Suscipit 
-                                    facilis libero deleniti, possimus placeat molestiae 
-                                    excepturi quae non cum illo autem, 
-                                    fugiat porro ullam tenetur aperiam! Et.</p>
+                                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Frontend Developer</h1>
+                                <p className='text-sm md:text-md leading-tight'>
+                                    As a frontend developer, I have a deep understanding of creating responsive, user-friendly interfaces using technologies like React.js, JavaScript, HTML, and CSS. My goal is to deliver engaging experiences for users through intuitive designs.
+                                </p>
                             </span>
                         </div>
                         <div className='flex gap-3 py-4'>
-                        <GoArrowRight size={30} className="mt-1"/>
+                            <GoArrowRight size={30} className="mt-1"/>
                             <span className='w-96'>
-                                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Backend developer</h1>
-                                <p className='text-sm md:text-md leading-tight'>Lorem ipsum dolor sit amet consectetur 
-                                    adipisicing elit. Dolorem, molestias omnis. Suscipit 
-                                    facilis libero deleniti.</p>
+                                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Backend Developer</h1>
+                                <p className='text-sm md:text-md leading-tight'>
+                                    With experience in Node.js and Express.js, I build scalable and secure server-side applications. I ensure efficient handling of data and authentication systems, while integrating with databases like MongoDB and SQL for optimized performance.
+                                </p>
                             </span>
                         </div>
                         <div className='flex gap-3 py-4'>
-                        <GoArrowRight size={30} className="mt-1"/>
+                            <GoArrowRight size={30} className="mt-1"/>
                             <span className='w-96'>
-                                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Database developer</h1>
-                                <p className='text-sm md:text-md leading-tight'>Lorem ipsum dolor sit amet consectetur 
-                                    adipisicing elit. Dolorem, molestias omnis. Suscipit 
-                                    facilis libero deleniti, possimus placeat molestiae 
-                                    excepturi.</p>
+                                <h1 className='text-xl md:text-2xl font-semibold leading-normal'>Database Developer</h1>
+                                <p className='text-sm md:text-md leading-tight'>
+                                    I specialize in both NoSQL and SQL databases, particularly MongoDB and SQL. My experience ensures efficient data storage, retrieval, and management, focusing on security and optimization for large-scale applications.
+                                </p>
                             </span>
                         </div>
                     </ul>
@@ -48,5 +43,6 @@ const About = () => {
         </div>
     )
 }
+
 
 export default About

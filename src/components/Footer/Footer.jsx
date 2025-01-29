@@ -14,7 +14,7 @@ const Footer = () => {
             <ul className='text-sm md:text-xl'>
                 <li className='flex gap-1 items-center'>
                     <MdEmail />
-                    LuneLand.com
+                    shanuziyacp@gmail.com
                 </li>
                 <li className='flex gap-1 items-center'>
                     <CiLinkedin />
@@ -22,7 +22,7 @@ const Footer = () => {
                 </li>
                 <li className='flex gap-1 items-center'>
                     <FaGithub />
-                    github.com/LuneLand
+                    https://github.com/Shanuziyaparveen
                 </li>
             </ul>
         </div>

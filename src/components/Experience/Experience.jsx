@@ -1,10 +1,7 @@
 import React from 'react'
 import { FaCss3 ,FaFigma , FaHtml5 , FaJs , FaReact } from "react-icons/fa"
-import {FaAmazon} from "react-icons/fa"
-import {SiNetflix} from "react-icons/si"
-import { FaGoogle } from 'react-icons/fa'
-import { SiMongodb } from 'react-icons/si'
 
+import { SiMongodb } from 'react-icons/si'
 
 
 const Experience = () => {
@@ -33,39 +30,29 @@ const Experience = () => {
                     </span>
                 </div>
                 <div>
-                <div className='flex gap-10 bg-bgColor bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
-                    <FaGoogle color='#4285F4' size={50} />
-                    <span className='text-black/75'>
-                        <h2 className='leading-tight'>Software Engineer , Google</h2>
-                        <p className='text-sm leading-tight font-thin'>Sept 2023 - Present</p>
-                        <ul className='text-sm p-2'>
-                            <li>Work SDE developer</li>
-                            <li>Sinior SDE developer</li>
-                        </ul>
-                    </span>
-                </div>
-                <div className='flex gap-10 bg-bgColor bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
-                    <SiNetflix color='#E50914' size={50} />
-                    <span className='text-black/75'>
-                        <h2 className='leading-tight'>Software Engineer , Netflix</h2>
-                        <p className='text-sm leading-tight font-thin'>Sept 2023 - Present</p>
-                        <ul className='text-sm p-2'>
-                            <li>Work SDE developer</li>
-                            <li>Sinior SDE developer</li>
-                        </ul>
-                    </span>
-                </div>
-                <div className='flex gap-10 bg-bgColor bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
-                    <FaAmazon color='#FF9900' size={50} />
-                    <span className='text-black/75'>
-                        <h2 className='leading-tight'>Software Engineer , Amazon</h2>
-                        <p className='text-sm leading-tight font-thin'>Sept 2023 - Present</p>
-                        <ul className='text-sm p-2'>
-                            <li>Work SDE developer</li>
-                            <li>Sinior SDE developer</li>
-                        </ul>
-                    </span>
-                </div>
+                    <div className='flex gap-10 bg-bgColor bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
+                        <span className='text-black/75'>
+                            <h2 className='leading-tight'>Full-Stack Web Development Bootcamp, Brototype</h2>
+                            <p className='text-sm leading-tight font-thin'>2024 - Present</p>
+                            <ul className='text-sm p-2'>
+                                <li>Gained hands-on experience in MERN stack development</li>
+                                <li>Built scalable web applications with CRUD operations</li>
+                                <li>Worked on authentication systems, deployment, and version control with Git</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div className='flex gap-10 bg-bgColor bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
+                        <span className='text-black/75'>
+                            <h2 className='leading-tight'>Self-Learning (JavaScript, MERN Stack)</h2>
+                            <p className='text-sm leading-tight font-thin'>2023 - Present</p>
+                            <ul className='text-sm p-2'>
+                                <li>Independently learning JavaScript, Node.js, Express.js, MongoDB, React.js</li>
+                                <li>Building personal projects to apply theoretical knowledge</li>
+                                <li>Learning and implementing version control using Git and GitHub</li>
+                                <li>Exploring best practices in coding, problem-solving, and web development</li>
+                            </ul>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
