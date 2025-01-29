@@ -18,7 +18,7 @@ const Footer = () => {
                 </li>
                 <li className='flex gap-1 items-center'>
                     <CiLinkedin />
-                    linkedin.com/username
+                    linkedin.com/shanuziyaparveen
                 </li>
                 <li className='flex gap-1 items-center'>
                     <FaGithub />
