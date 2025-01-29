@@ -19,7 +19,7 @@ const Home = () => {
                 </a>
             </div>
             <div className='flex justify-center items-center'>
-                <img className='rounded md:w-2/3' src={avatarImg} alt="" />
+            <img className="rounded md:w-2/3" src="/avatar.png" alt="Avatar" />
             </div>
         </div>
         )
